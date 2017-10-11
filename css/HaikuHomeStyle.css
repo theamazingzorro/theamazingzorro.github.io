@@ -1,5 +1,5 @@
 body {
-	background-color: #940094;
+	background-color: #3D4F5D;
 	padding: 1em;
 	font-family: Arial, sans-serif;
 }
@@ -17,11 +17,11 @@ button {
 }
 #haiku {
 	text-align:center;
-	border: 1px solid #940094;
-	background-color: #ffefd9;
+	border: 2px solid #A3B5C3;
+	background-color: #fefefe;
 }
 #wrapper {
-	background-color: #ffebcd;
+	background-color: #fefefe;
 	margin: 1em auto;
 	padding: .75em;
 	max-width: 70em;

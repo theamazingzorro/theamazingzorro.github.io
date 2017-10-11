@@ -1,95 +1,143 @@
-<!DOCTYPE html>
-<html >
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Timeline</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-<div class="wrapper">
-<section class="block">
-  <div class="each-year">
-    <div class="title" id="2016">2016</div>
-
-    <div class="each-event">
-      <div class="event-title">
-        <a href="HaikuGenerator.html">Haiku Generator</a>
-      </div>
-      <div class="event-description">
-        things
-      </div>
-    </div>
-  
-    <div class="each-event">
-      <div class="event-title">
-        <a href="HaikuGenerator.html">Haiku Generator</a>
-      </div>
-      <div class="event-description">
-        things
-      </div>
-    </div>
-
-    <div class="each-event">
-      <div class="event-title">
-        <a href="HaikuGenerator.html">Haiku Generator</a>
-      </div>
-      <div class="event-description">
-        things
-      </div>
-    </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Fox Noland</title>
     
-    <div class="each-event">
-      <div class="event-title">
-        <a href="HaikuGenerator.html">Haiku Generator</a>
-      </div>
-      <div class="event-description">
-        things
-      </div>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/blog.css">
+        <!--<![endif]-->
+</head>
+<body>
+
+
+
+
+
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1 class="brand-title">Fox Noland</h1>
+            <h2 class="brand-tagline">Software Design Portfolio</h2>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="#2017">2017</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="pure-button" href="#2016">2016</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="pure-button" href="#2015">2015</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="pure-button" href="resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
-    <div class="each-event">
-      <div class="event-title">
-        <a href="HaikuGenerator.html">Haiku Generator</a>
-      </div>
-      <div class="event-description">
-        things
-      </div>
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead" id="2017">2017</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+
+                        <h2 class="post-title">Introducing Pure</h2>
+
+                        <p class="post-meta">
+                            Under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="posts">
+                <h1 class="content-subhead" id="2016">2016</h1>
+
+                <section class="post">
+                    <header class="post-header">
+                        
+                        <h2 class="post-title">Calc-bot</h2>
+
+                        <p class="post-meta">
+                            Under <a class="post-category post-category-js" href="#">JavaScript</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </section>                
+            </div>
+
+
+            <div class="posts">
+                <h1 class="content-subhead" id="2015">2015</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <h2 class="post-title">Haiku Generator</h2>
+
+                        <p class="post-meta">
+                            Under <a class="post-category post-category-js" href="#">JavaScript</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            One of the first projects I worked on after I began programming, its design is simplistic but provides a fun effect. Here's a <a href="HaikuGenerator.html">demo</a> of the project, and its <a href="https://github.com/theamazingzorro/HaikuGenerator">source code</a>.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="http://theamazingzorro.github.io/" class="pure-menu-link">About</a></li>
+                        <li class="pure-menu-item"><a href="http://github.com/theamazingzorro" class="pure-menu-link">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="each-event">
-      <div class="event-title">
-        <a href="HaikuGenerator.html">Haiku Generator</a>
-      </div>
-      <div class="event-description">
-        things
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section class="block">
-  <div class="each-year">
-  <div class="title" id="2015">2015</div>
-
-    <div class="each-event">
-      <div class="event-description">
-        sfbkhsv
-      </div>
-    </div>
-
-  </div>
-</section>
 </div>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-
-    <script src="js/index.js"></script>
 
 </body>
 </html>
