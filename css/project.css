@@ -1,0 +1,17 @@
+#content { 
+   background: white;
+   padding-top: 12rem;
+   padding-bottom: 12rem;
+}
+#content .row {
+   max-width: 1024px;
+}
+#content .section-intro {
+   max-width: 800px;
+}
+#intro {
+	max-height: 100px;
+}
+h2 {
+  color: #FF0077;
+}
