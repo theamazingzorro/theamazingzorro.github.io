@@ -1,141 +1,357 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software Design Portfolio of Fox Noland">
-    <title>Fox Noland</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-    <!--<![endif]-->
-    
-    
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="css/layouts/blog.css">
-        <!--<![endif]-->
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Fox Noland</title>
+	<meta name="description" content="A software developer's portfolio">  
+	<meta name="author" content="Fox Kenneth James Noland">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
 </head>
-<body>
 
-<div id="layout" class="pure-g">
-    <div class="sidebar pure-u-1 pure-u-md-1-4">
-        <div class="header">
-            <h1 class="brand-title">Fox Noland</h1>
-            <h2 class="brand-tagline">Software Design Portfolio</h2>
+<body id="top">
 
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="pure-button" href="#2017">2017</a>
-                    </li>
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
 
-                    <li class="nav-item">
-                        <a class="pure-button" href="#2016">2016</a>
-                    </li>
+   	<div class="intro-overlay"></div>	
 
-                    <li class="nav-item">
-                        <a class="pure-button" href="#2015">2015</a>
-                    </li>
+   	<div class="intro-content">
+   		<div class="row">
 
-                    <li class="nav-item">
-                        <a class="pure-button" href="resume.pdf">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+   			<div class="col-twelve">
 
-    <div class="content pure-u-1 pure-u-md-3-4">
-        <div>
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Fox Noland.</h1>
 
-            <div class="posts">
-                <h1 class="content-subhead" id="2017">2017</h1>
+	   			<p class="intro-position">
+	   				<span>Software Developer</span>
+	   			</p>
 
-                <section class="post">
-                    <header class="post-header">
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
 
-                        <h2 class="post-title">Page still under constuction</h2>
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
 
-                        <p class="post-meta">
-                            Under <a class="post-category post-category-design" href="#">CSS</a> 
-                        </p>
-                    </header>
+   	<!-- Social Media junk
+   	  <ul class="intro-social">        
+         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="#"><i class="fa fa-behance"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul>    
+      -->	
 
-                    <div class="post-description">
-                        <p>
-                            I recently began building this page to host past projects that I am proud of, currently it's still being brought up to date. So don't be surprised if some links are not functioning as of yet.
-                        </p>
-                    </div>
-                </section>
-
-            </div>
-
-            <div class="posts">
-                <h1 class="content-subhead" id="2016">2016</h1>
-
-                <section class="post">
-                    <header class="post-header">
-                        
-                        <h2 class="post-title">Calc-bot</h2>
-
-                        <p class="post-meta">
-                            Under <a class="post-category post-category-pure" href="#">Python</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                            This python script used tweepy, a python implementation of the twitter web api, to answer calculus questions on the bot's twitter account. It parsed plain english questions for the problem types it could process, and replied with its answer. Here's the <a href="https://twitter.com/bot_zorro/with_replies">account</a> it was running on during April and May 2016, and its <a href="https://github.com/theamazingzorro/CalcBot">source code</a>.
-                        </p>
-                    </div>
-                </section> 
-
-            </div>
+   </section> <!-- /intro -->
 
 
-            <div class="posts">
-                <h1 class="content-subhead" id="2015">2015</h1>
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
 
-                <section class="post">
-                    <header class="post-header">
+   	<div class="row section-intro">
+   		<div class="col-twelve">
 
-                        <h2 class="post-title">Haiku Generator</h2>
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
 
-                        <p class="post-meta">
-                            Under <a class="post-category post-category-js" href="#">JavaScript</a>
-                        </p>
-                    </header>
+   			<div class="intro-info">
 
-                    <div class="post-description">
-                        <p>
-                            One of the first projects I worked on after I began programming, its design is simplistic but provides a fun effect. It generates the haikus from  sets of words, divided by syllable count and type, and predefined sentence structures, combining them at random. Here's a <a href="HaikuGenerator.html">demo</a> of the project, and its <a href="https://github.com/theamazingzorro/HaikuGenerator">source code</a>.
-                        </p>
-                    </div>
-                </section>
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-            </div>
+   				<p class="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
+   			</div>   			
 
-            <div class="footer">
-                <div class="pure-menu pure-menu-horizontal">
-                    <ul>
-                        <li class="pure-menu-item"><a href="http://theamazingzorro.github.io/" class="pure-menu-link">About</a></li>
-                        <li class="pure-menu-item"><a href="http://theamazingzorro.github.io/resume.pdf" class="pure-menu-link">Resume</a></li>
-                        <li class="pure-menu-item"><a href="http://github.com/theamazingzorro" class="pure-menu-link">GitHub</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			
+   			<br>
+   			<br>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Fox Kenneth James Noland</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>June 2, 1999</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>CS Major, OSU</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>theamazingzorro.github.io</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>foxkjnoland@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>Java</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent65"><span>65%</span></div>
+				   	<strong>HTML & CSS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>Javascript</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="https://github.com/theamazingzorro/" title="Github" class="button stroke">My Github</a>
+   			<a href="https://theamazingzorro.github.io/resume.pdf" title="Download Resume" class="button button-primary">Download Resume</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>August 2017 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>The Ohio State University</h4>
+	   					<p>I am currently pursuing a degree in Computer Science and Engineering, with a minor in Spanish at OSU. I have a 3.5 GPA and expect to graduate in Spring 2020.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Secondary School</h3>
+	   					<p>August 2013 - May 2017</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Stow Munroe Falls High School</h4>
+	   					<p>In high school I took a two year program in programming and web development. It was my first introduction to computer science.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Personal Projects</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Arduino</h3>
+	   					<p>March 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Dog Treat Thrower</h4>
+	   					<p>This was a hackathon project I worked on, alongside two friends my freshman year. It was rewarded "Top Tier" at MakeOHI/O. The team went on to showcase it at a later event. It was an assistive device made to be used by the disabled, which could throw dog treats with the push of a button.<br>
+	   					<a href="dog-treat-catapult.html">Read More...</a></p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>JavaScript</h3>
+	   					<p>April 2015</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Haiku Generator website</h4>
+	   					<p>One of the first projects I worked on after I began programming, its design is simplistic but provides a fun effect. It generates the haikus from sets of words, divided by syllable count and type, and predefined sentence structures, combining them at random. Here's a <a href="HaikuGenerator/index.html">demo</a> of the project, and its <a href="https://github.com/theamazingzorro/HaikuGenerator">source code</a>.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	
+
+   	<div class="row contact-info">
+
+   		<div class="col tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>foxkjnoland@gmail.com</p>
+
+   		</div>
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Fox Noland 2018.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
+
 </html>

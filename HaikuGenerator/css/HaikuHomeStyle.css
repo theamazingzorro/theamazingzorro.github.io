@@ -1,0 +1,29 @@
+body {
+	background-color: #3D4F5D;
+	padding: 1em;
+	font-family: Arial, sans-serif;
+}
+h1, h2 {
+	text-align: center;
+}
+p {
+	font-size: 16pt;
+}
+button {
+	position: relative;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+#haiku {
+	text-align:center;
+	border: 2px solid #A3B5C3;
+	background-color: #fefefe;
+}
+#wrapper {
+	background-color: #fefefe;
+	margin: 1em auto;
+	padding: .75em;
+	max-width: 70em;
+	min-width: 30em;
+}

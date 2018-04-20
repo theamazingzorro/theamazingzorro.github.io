@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Haiku Generator</title>
+		<script src="js/HaikuGen.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/HaikuHomeStyle.css">
+	</head>
+	<body onload="possibilities()">
+		<div id="wrapper">
+			<h1>Haiku Generator</h1>
+			<h2 id="combo"></h2>
+			<p>This is an early project with the goal of randomly generating Haikus. Here a Haiku is defined as a short, three line poem, where the lines follow a five, seven, five syllable pattern.</p>
+			<p id="haiku">
+				haikus are easy </br>
+				but sometimes they don't make sense </br>
+				refrigerator
+			</p>
+			<button id="button" type="submit" onclick="writeHaiku()">Click to generate a Haiku</button>
+		</div>
+	</body>
+</html>
